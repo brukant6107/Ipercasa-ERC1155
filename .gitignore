@@ -1,0 +1,30 @@
+# Node
+node_modules/
+
+# Env (CLAVES PRIVADAS)
+.env
+
+# Hardhat
+cache/
+artifacts/
+
+# Coverage
+coverage/
+coverage.json
+
+# Typechain
+typechain/
+typechain-types/
+
+# Build
+build/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+dist/
+out/

@@ -1,0 +1,19 @@
+{{#each items}}
+{{#hsection}}
+{{{natspec.title}}}
+{{/hsection}}
+
+{{{natspec.notice}}}
+
+{{#if methods}}
+## Functions
+
+{{#each methods}}
+### {{name}}
+
+{{{natspec.notice}}}
+{{/each}}
+
+{{/if}}
+
+{{/each}}
